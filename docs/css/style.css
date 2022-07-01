@@ -1,11 +1,14 @@
-.menubar-mobile{
+
+/** HEADER */
+
+.menubar-mobile {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     display: none;
 }
-.menubar-desktop{
+.menubar-desktop {
     background: coral; 
     position: fixed;
     top: 0;
@@ -14,32 +17,29 @@
     width: 20%;
     padding: 10px 20px;
 }
-.menubar-desktop li{
+
+
+.menubar-desktop li {
     background: coral;
     border: none;
     padding-bottom: 10px;
     text-align: center;
 }
-.menubar-desktop li  a{
+.menubar-desktop li  a {
     text-decoration: none;
     font-weight: 700;
     color: aliceblue;
 }
+
 .profile_image{
     padding: 20px;
     text-align: center;
 }
 
-.profile_image img{
-    width: 200px;
-    height: 190px;
-    border-radius: 50%;
-    border: 10px solid salmon;
-
-}
 
 
-.main-content{
+
+.main-content {
     padding-left: 20%;
     background: #000000;
     margin-bottom: 0;
@@ -66,43 +66,60 @@ div {
 
 
 
-section{
+section {
     padding: 0 10%;
     padding-top: 10%;
     color: white;
     height: 100vh;
 }
-section h4,h1, h6{
+section h4,h1, h6 {
     text-transform: uppercase;    
 }
-section h4{
+section h4 {
     font-size: 45px;
     color: coral;
     padding-bottom: 10px;
 }
-section h5{
+section h5 {
     font-size: 28px;
     padding-bottom: 20px;
 }
 
-#about h1{
+
+
+/** ABOUT SECTION */
+
+#about h1 {
     font-size: 72px;
     color: coral;
     padding-bottom: 10px;
 }
 
-#about .icons{
-    font-size: 18px;
+.ht {
+  display: flex;
+  align-items: center;
 }
 
-#project img{
-    width: 30%;
-    height: 40%;
-    margin: 10px;
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a .fa-eye {
+    text-decoration: none;
 }
 
 a:hover {
     color: white;
+}
+
+/** PROJECT SECTION */
+
+#project img {
+    width: 30%;
+    height: 40%;
+    margin: 10px;
 }
 
 .icons-s {
@@ -117,6 +134,7 @@ a:hover {
 }
 
 
+/** MOBILE RESPONSIVE */
 
 @media screen and (max-width:780px) {
     .menubar-mobile{
@@ -139,6 +157,7 @@ a:hover {
         height: 100%;
     }
 }
+
 
 
 
